@@ -70,6 +70,10 @@ button{
     color: rgb(46, 44, 44);
     font-size: 37px;
 }
-#
+#header2{
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+}
 
 
