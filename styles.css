@@ -111,3 +111,125 @@ button{
     text-align: left;
     padding-top: 5px;
 }
+#cards{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+}
+#car1{
+    width: 290px;
+    height: 350px;
+border-top-left-radius: 20px;
+    background-color: #fff;
+    padding-bottom: 10px;
+
+    
+    
+}
+#part2{
+    margin-left: 20px;
+    width: 270px;
+}
+
+.companies_logos{
+    width: 100%;
+    height: 180px;
+    background-color: #fff;
+    
+  
+}
+#logos{
+    dosplay:flex;
+   margin-left: 40px;
+   padding-top: 30px;
+   margin-right: 40px;
+
+}
+.block{
+    display: flex;
+}
+.left{
+    padding-left: 100px;
+    width: 45%;
+    height: 100vh;
+
+}
+.hand1{
+    width: 430px;
+    display: inline-flex;
+    font-family: sans-serif;
+    height: 60px;
+    border-radius: 10px;   
+    padding: 50px; 
+    border: 1px solid rgb(199, 14, 199);
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.right{
+    padding: 0 100px 60px;
+    
+}
+.hand1:hover{
+    background-color: rgb(219, 224, 238);
+    cursor: pointer;
+}
+.hand1:active{
+border: 1px solid rgb(199, 14, 199);
+border-left: 8px solid rgb(122, 12, 122);
+
+}
+.growth{
+    width: 90%;
+    height: 600px;
+    background-color: #fff;
+    padding: 40px 100px 40px 100px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+
+}
+.box1{
+    width: 410px;
+    height: 500px;
+    border-radius: 20px;
+    border: 1px solid rgb(95, 10, 88);
+    border-top: 8px solid rgb(122, 12, 122);
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+.upper{
+    width: 390px;
+    height: 90px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(234, 235, 245);
+}
+.sub{
+    padding-top: 25px;
+    font-family: sans-serif;
+    align-items: center;
+}
+.sub_btn{
+    margin-top: 15px;
+    width: 360px;
+    height: 50px;
+    background-color: rgb(49, 48, 48);
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.lower{
+    padding-left: 20px;
+}
+.sublower{
+    display: inline-flex;
+    align-content: center;
+}
